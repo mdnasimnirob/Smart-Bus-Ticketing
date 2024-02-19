@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>+
 </head>
-<body class="container mx-auto">
+<body class="">
 
   <!-- Navber section -->
 
@@ -44,7 +44,7 @@
     </header>
 
 
-    <main class="lg:mx-auto mx-2">
+    <main class="lg:mx-auto mx-2 container md:mx-auto">
 
       <!-- Banner section -->
 
@@ -409,9 +409,29 @@
     </main>
 
 <!-- footer section -->
-    <footer>
+  <footer class="footer footer-center text-left p-12  bg-base-200 text-base-content  bg-black ">
+    <div class="lg:grid lg:grid-cols-2 md:grid-cols-2 md:gap-y-8 lg:gap-x-96 lg:gap-y-28 ">
+      <div class="footer-center lg:text-left md:text-left">
+        <h2 class="text-2xl font-bold mb-4 text-white">P-Ticket</h2>
+        <p class="text-sm text-[#b3b6ae]">P-Ticket is a digital platform to make your <br> daily commuting better.</p>
+      </div>
+      <div>
+        <h1 class="text-white text-center mb-4 font-medium text-lg">Download our app</h1>
+        <img src="images/google-play.png" alt="">
+      </div>
+      <div>
+        <p class="text-sm text-[#b3b6ae]">@all rights reserved, P-Ticket services limited.2024</p>
+      </div>
+      <div class="flex gap-9 text-[#b3b6ae]">
+        <a href="">Terms & condition</a>
+        <a href="">Return & refund policy</a>
+        <a href="">Privacy policy</a>
+      </div>
 
-    </footer>
+    </div>
+    
+  </footer>
+  
 
     <script src="scripts/scripts.js"></script>
 
